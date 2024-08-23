@@ -9,6 +9,7 @@ html {
 }
 :root {
   font-size: 10px;
+  font-family: sans-serif;
 }
 body {
   margin: 0;
@@ -32,10 +33,20 @@ body {
   height: 70px;
   display: flex;
   flex-wrap: nowrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  gap: 10px;
 }
-form {
-  width: 100%;
+label {
   height: 100%;
+  font-size: large;
+}
+input {
+  height: 100%;
+  font-size: large;
+  text-align: center;
+}
+button {
+  height: 50px;
+  flex: 1;
 }
