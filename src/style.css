@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  border: 1px solid black;
   margin: 0;
   padding: 0;
 }
@@ -27,6 +26,7 @@ body {
 }
 #widgetMain {
   height: 200px;
+  position: relative;
 }
 #widgetInput {
   padding: 10px;
@@ -49,4 +49,16 @@ input {
 button {
   height: 50px;
   flex: 1;
+}
+img {
+  height: 200px;
+  width: 480px;
+  object-fit: fill;
+  opacity: 0.3;
+}
+p {
+  position: absolute;
+  left: 30%;
+  top: 40%;
+  font-size: 4rem;
 }
